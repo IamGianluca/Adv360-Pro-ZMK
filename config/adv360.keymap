@@ -25,10 +25,10 @@
     default_layer {
       bindings = <
         &kp GRAVE &kp N1    	&kp N2   	&kp N3   	&kp N4     	&kp N5 &tog 1                                                                       			&mo 3 	&kp N6 	&kp N7 		&kp N8    	&kp N9   	&kp N0   	&kp BSLH
-        &kp TAB   &kp DQT   	&kp COMMA   	&kp DOT    	&kp P      	&kp Y  &none                                                                        			&none 	&kp F  	&kp G  		&kp C     	&kp R    	&kp L    	&kp FSLH
-        &kp ESC   &hm LGUI A    &hm LALT O   	&hm LSHFT E    	&hm LCTRL U     &kp I  &none            	&kp LCTRL &kp CAPS             &none 	 &none           		&none 	&kp D   &hm RCTRL H  	&hm RSHFT T     &hm RALT N    	&hm RGUI S 	&kp MINUS
-        &kp LSHFT &kp COLON 	&kp Q    	&kp J    	&kp K     	&kp X         	&none     	&none     &kp HOME &none &none &kp PG_UP &none   	&none           	&kp B  	&kp M  		&kp W 		&kp V 		&kp Z 		&none
-        &mo 2     &none 	&none 	 	&kp LEFT 	&kp RIGHT                	&kp SPACE 	&kp BSPC  &kp END              &kp PG_DN &kp DEL 	&kp ENTER              		&kp UP 		&kp DOWN  	&none 		&none 		&mo 2
+        &kp TAB   &kp SQT   	&kp COMMA   	&kp DOT    	&kp P      	&kp Y  &none                                                                        			&none 	&kp F  	&kp G  		&kp C     	&kp R    	&kp L    	&kp FSLH
+        &kp ESC   &hm LGUI A    &hm LALT O   	&hm LSHFT E    	&hm LCTRL U     &kp I  &none            	&caps_word &kp CAPS             &none 	  &none           		&none 	&kp D   &hm RCTRL H  	&hm RSHFT T     &hm RALT N    	&hm RGUI S 	&kp MINUS
+        &none 	  &kp SEMI	&kp Q    	&kp J    	&kp K     	&kp X         	&none     	&none      &kp HOME &none &none &kp PG_UP &none   	&none           	&kp B  	&kp M  		&kp W 		&kp V 		&kp Z 		&none
+        &mo 2     &none 	&none 	 	&kp LEFT 	&kp RIGHT                	&kp SPACE 	&kp BSPC   &kp END              &kp PG_DN &kp DEL 	&kp ENTER              		&kp UP 		&kp DOWN  	&none 		&none 		&mo 2
       >;
     };
     keypad {
